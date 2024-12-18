@@ -10,9 +10,33 @@
 		B7834E922D0C8FF800FFA2A9 /* Poet Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poet Note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B7834EB22D11C42100FFA2A9 /* Exceptions for "Poet Note" folder in "Poet Note" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = B7834E912D0C8FF800FFA2A9 /* Poet Note */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		B7834EB32D11C42100FFA2A9 /* Exceptions for "Poet Note" folder in "Compile Sources" phase from "Poet Note" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = B7834E8E2D0C8FF800FFA2A9 /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B7834E942D0C8FF800FFA2A9 /* Poet Note */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B7834EB22D11C42100FFA2A9 /* Exceptions for "Poet Note" folder in "Poet Note" target */,
+				B7834EB32D11C42100FFA2A9 /* Exceptions for "Poet Note" folder in "Compile Sources" phase from "Poet Note" target */,
+			);
 			path = "Poet Note";
 			sourceTree = "<group>";
 		};
@@ -252,8 +276,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Poet Note/Preview Content\"";
+				DEVELOPMENT_TEAM = NVX552U3P2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Poet-Note-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,8 +306,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Poet Note/Preview Content\"";
+				DEVELOPMENT_TEAM = NVX552U3P2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Poet-Note-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
